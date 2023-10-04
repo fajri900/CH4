@@ -2,7 +2,6 @@ const express = require("express");
 const morgan = require("morgan");
 
 const router = require("./routes");
-const { port } = require("pg/lib/defaults");
 
 const PORT = process.env.PORT || 3000;
 
